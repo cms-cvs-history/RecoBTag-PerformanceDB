@@ -3,7 +3,7 @@ import FWCore.ParameterSet.Config as cms
 process = cms.Process("myprocess")
 process.load("CondCore.DBCommon.CondDBCommon_cfi")
 
-process.CondDBCommon.connect = 'sqlite_file:PhysicsPerformance.db'
+process.CondDBCommon.connect = 'sqlite_file:../PhysicsPerformance.db'
 
 #process.load ("RecoBTag.PerformanceDB.BtagPerformanceESProducer_cfi")
 #
