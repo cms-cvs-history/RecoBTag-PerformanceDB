@@ -1,10 +1,14 @@
 <use name=CondFormats/PhysicsToolsObjects>
 <use name=RecoBTag/Records>
 <use name=CondFormats/DataRecord>
+<use name=DataFormats/PatCandidates>
 <use name=FWCore/Framework>
 <use name=FWCore/PluginManager>
 <use name=RecoBTag/PerformanceDB>
 
 <library file="*.cc" name=testRecoBTagTestPerformanceDBPlugins>
+       <flags EDM_PLUGIN=1>
+ </library>
+<library file="october/tests/*.cc" name=testRecoBTagTestPerformanceDBOctPlugins>
        <flags EDM_PLUGIN=1>
  </library>
