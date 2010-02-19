@@ -5,7 +5,6 @@ process.load("CondCore.DBCommon.CondDBCommon_cfi")
 
 process.CondDBCommon.connect = 'sqlite_file:PhysicsPerformance.db'
 
-
 process.maxEvents = cms.untracked.PSet(
     input = cms.untracked.int32(1)
 )
