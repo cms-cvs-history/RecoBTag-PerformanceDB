@@ -9,6 +9,6 @@
 <library file="*.cc" name=testRecoBTagTestPerformanceDBPlugins>
        <flags EDM_PLUGIN=1>
  </library>
-<library file="october/tests/*.cc" name=testRecoBTagTestPerformanceDBOctPlugins>
+<library file="process/src/validateBTagDB.cc" name=validateRecoBTagPerformanceDBPlugins>
        <flags EDM_PLUGIN=1>
  </library>
